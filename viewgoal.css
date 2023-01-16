@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: "Actor";
+    margin: 0px 0px;
+    height: 100vh;
+}
+
+.main{
+    text-align: center;
+    display: flex;
+    background-color: #EBF7E3;
+    font-family: "Actor";
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.goals{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Actor";
+    text-align: center;
+    height: 100vh;
+    margin: 0% 10%;
+}
+
+.goalcategory{
+    display: flex;
+    flex-direction: column;
+    font-family: "Actor";
+    text-align: center;
+    width: 30em;
+}
+
+.goal{
+    border: 2px solid black;
+    border-radius: 5%;
+    margin: 2em;
+}
+
+.tostart{
+    background-color: #6997B0;
+}
+
+.inprogress{
+    background-color: #9FC0D3;
+}
+
+.achieved{
+    background-color: #D6F8FF;
+}

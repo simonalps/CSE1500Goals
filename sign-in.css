@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: "Actor";
+    margin: 0px 0px;
+    height: 100vh;
+}
+#middle{
+    flex: 1;
+}
+.main{
+    height:auto; /* real browsers */
+    height:100%; /* IE6: treaded as min-height*/
+    text-align: center;
+    display: flex;
+    background-color: #EBF7E3;
+    justify-content: flex-start;
+    flex-direction: column;
+}

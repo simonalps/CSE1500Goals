@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+    <link rel="stylesheet" href="headerfooter.css">
+    <link rel="stylesheet" href="sign-up.css">
+</head>
+<body>
+    <div class = "header">
+        <a href="index.html"><h1>SMARTGoal</h1></a>
+        <ul class="nav">
+            <li><a href="sign-in.html">Sign in</a></li>
+            <li><a href="sign-up.html">Sign up</a></li>
+          </ul>
+    </div>
+    <div class="main">
+        <h1>Making a new account</h1>
+        <hr>
+        <p>Please enter your personal detalis:</p>
+        <br>
+        <form action="">
+            <label for="">Email<br></label><input type="email" emailInput> <br>
+            <label for="">User ID (cannot be changed later)<br></label><input type="text" text> <br>
+            <label for="">Password<br></label><input type="password" password> <br>
+            <label for="">Confirm Password<br></label><input type="text" confPassword> <br>
+            <label for="">Name and surname<br></label><input type="text" nameSurname> <br>
+            <label for="">Sex<br></label><select name="sex">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select><br>
+            <label for="">Langugage<br></label><select name="lang">
+                <option value="ENG">English</option>
+                <option value="RO">Romanian</option>
+            </select><br>
+            <label for="">Country<br></label><select name="country">
+                <option value="ENG">England</option>
+                <option value="RO">Romania</option>
+            </select><br>
+            <label for="">Address</label><br><input type="text" address> <br>
+            <label for="">Zip Code</label><br><input type="number" zipcode> <br>
+            <label for="">Bio (optional)</label><br><textarea name="bio"></textarea><br>
+            <input type="submit" value="Submit">
+        </form><br>
+        <p>Already a user? <a href="sign-in.html">Sign in</a> now!</p>
+    </div>
+    <div  class="footer">
+        <p>&copy; 2022 Simona and Sandi</p>
+      </div> 
+</body>
+</html>

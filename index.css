@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    font-family: "Actor";
+    height: 84.5vh;
+}
+.main{
+    justify-content: center;
+    height:auto; /* real browsers */
+    height:100%; /* IE6: treaded as min-height*/
+    display: flex;
+    padding: 0 20px;
+    background-color: #EBF7E3;
+    color: #1B3409;
+}
+.main h2{
+    padding-left: 40px; 
+    text-align: center;
+    
+}
+.buttons{
+    text-align: center;
+    background-color: #9BD770;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.buttons a{
+    color: #1B3409;
+}
+.gridButtons{
+    display: grid;
+    padding: 40px 40px;
+    row-gap: 40px;
+    width: auto;
+    justify-content: center;
+}
+.gridButtons a{
+    text-decoration: none;
+}

@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    font-family: "Actor";
+    height: 84.5vh;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    height:auto; /* real browsers */
+    height:100%; /* IE6: treaded as min-height*/
+    padding: 0 20px;
+    background-color: #EBF7E3;
+    color: #1B3409;
+    text-align: center;
+    align-items: center;
+}
+.goal{
+    border-radius: 8px;
+    background-color: aqua;
+    padding: 50px 200px;
+    display: inline-block;
+}
+.newGoalGrid{
+    display: grid;
+    padding: 20px;
+    max-width: 750px;
+    margin: 0 auto;
+    justify-items: left;
+    grid-template-columns: 50% 25% 25%;
+
+}
+.newGoalGrid p{
+    text-align: left;
+    margin: 5px 0px;
+}
+.newGoalGrid input{
+    width: auto;
+}
+.targetList{
+    display: flexbox;
+    flex-direction: column;
+    max-width: 750px;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+.targetListInner{
+    border-radius: 8px;
+    border-color: rgb(140, 127, 255);
+    border-style: solid;
+    padding: 1px 10px;
+    grid-template-columns: 75% 25%;
+    display: grid;
+}
+.targetListInner input{
+    width: 50px;
+}
+.targetList form{
+    border-left: 1px solid;
+    
+}
+.targetList p{
+    text-align: left;
+}
